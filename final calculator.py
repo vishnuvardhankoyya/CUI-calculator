@@ -59,9 +59,7 @@ def multiply(number1, number2):
   
 print("Operation Menu -\n" \ 
         "3. Multiplication of two numbers\n" ) 
-  
-  
-#Taking input from the user  
+    
 select = input("Select operations form 1, 2, 3, 4 :") 
   
 num1 = int(input("Enter first number: ")) 
