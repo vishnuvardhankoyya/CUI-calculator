@@ -51,3 +51,26 @@ if select == '2':
     
 else: 
     print("Invalid input!")
+
+def multiply(number1, number2): 
+    return (number1 * number2) 
+  
+
+  
+print("Operation Menu -\n" \ 
+        "3. Multiplication of two numbers\n" ) 
+  
+  
+#Taking input from the user  
+select = input("Select operations form 1, 2, 3, 4 :") 
+  
+num1 = int(input("Enter first number: ")) 
+num2 = int(input("Enter second number: ")) 
+
+  
+if select == '3': 
+    print(num1, "*", num2, "=", 
+                    multiply(num1, num2)) 
+ 
+else: 
+    print("Invalid input!")
